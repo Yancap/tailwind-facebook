@@ -8,12 +8,15 @@ export default function Home() {
     <>
       <Head>
         <title>Facebook - entre ou cadastre-se</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <meta name="description" content="Entre no Facebook para começar a compartilhar e se conectar com seus amigos, 
         familiares e com as pessoas que você conhece." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
       </Head>
-      <main className='b bg-red-600'>
+      <main className='min-h-screen w-full grid place-items-center bg-main-gray'>
         <Main />
       </main>
       <footer>

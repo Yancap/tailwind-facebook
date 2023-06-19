@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,tsx}"],
   theme: {
+    fontFamily: {
+      'sans': ['Lato', 'Helvetica', 'ui-sans-serif', 'system-ui', 'sans-serif']
+    },
     extend: {
       spacing: {
         '30': '7.5rem',
@@ -11,7 +14,7 @@ module.exports = {
         '980px': '980px',
       },
       fontSize: {
-        'subtitle': '1.7rem'
+        "subtitle": '1.7rem'
       },
       colors: {
         'main-gray': '#F0F2F5',
@@ -20,7 +23,6 @@ module.exports = {
         'main-green': '#42B72A',
         'main-green-hover': '#36A420',
       }
-      
     },
   },
   plugins: [],
