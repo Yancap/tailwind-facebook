@@ -20,7 +20,7 @@ export default function Home() {
       <main className='min-h-screen w-full grid place-items-center bg-main-gray'>
         <Main />
       </main>
-      <footer>
+      <footer className='px-10 lg:px-0 w-full '>
         <Footer />
       </footer>
     </>
