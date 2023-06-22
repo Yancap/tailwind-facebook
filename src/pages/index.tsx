@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet"/>
       </Head>
-      <main className='min-h-screen w-full grid place-items-center pb-5 desktop:pb-0 desktop:bg-main-gray'>
+      <main className='pt-10 w-full grid place-items-center desktop:pb-5 desktop:pt-0 desktop:min-h-screen desktop:pb-0 desktop:bg-main-gray'>
         <Main />
       </main>
       <footer className='px-10 lg:px-0 w-full '>
