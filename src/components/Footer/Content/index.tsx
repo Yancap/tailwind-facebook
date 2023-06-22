@@ -6,7 +6,7 @@ interface ContentProps{
 
 export const Content = ({text}: ContentProps) => {
   return (
-    <li className='text-[12.25px] text-gray-500 md:text-gray-400 md:font-bold'>
+    <li className='text-[12px] text-gray-400 '>
         <a href="" className='hover:underline'>
             {text}
         </a>

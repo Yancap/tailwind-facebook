@@ -3,9 +3,12 @@ module.exports = {
   content: ["./src/**/*.{html,tsx}"],
   theme: {
     fontFamily: {
-      'sans': ['Lato', 'Helvetica', 'ui-sans-serif', 'system-ui', 'sans-serif']
+      'sans': [ 'Helvetica','Arial', 'ui-sans-serif', 'system-ui', 'sans-serif']
     },
     extend: {
+      screens: {
+        'desktop': '450px'
+      },
       spacing: {
         '30': '7.5rem',
         '290px': '290px',

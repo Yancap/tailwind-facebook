@@ -2,21 +2,37 @@ import React from 'react'
 
 export const Login = () => {
   return (
-    <div className='bg-white rounded-md overflow-hidden shadow-lg shadow-black/20 p-3.5'>
-        <form className='flex flex-col pb-4 gap-4 border-gray-300 border-solid border-b-[1px]'>
+    <div className='bg-white desktop:rounded-md overflow-hidden desktop:shadow-lg desktop:shadow-black/20 p-3.5'>
+        <form className='flex flex-col pb-4 gap-2 desktop:gap-3.5 desktop:border-gray-300 desktop:border-solid desktop:border-b-[1px]'>
             <input type="text" placeholder='E-mail ou telefone'
-            className='pt-3 pb-3 px-5 text-lg rounded-md border border-gray-300'/>
+            className='bg-[#f5f6f7] placeholder:text-gray-500 
+            desktop:placeholder:text-text-gray-400 shadow-sm shadow-black/20 py-2.5 px-4 desktop:py-3 desktop:px-5 
+            text-base rounded-sm desktop:rounded-md desktop:shadow-none desktop:border desktop:border-gray-300'/>
+
             <input type="password" placeholder='Senha'
-            className='pt-3 pb-3 px-5 text-lg rounded-md border border-gray-300' />
-            <button type="submit" className='py-3 text-xl text-white font-black rounded-md bg-main-blue transition-all hover:bg-main-blue-hover'>
+            className='bg-[#f5f6f7] placeholder:text-gray-500 
+            desktop:placeholder:text-text-gray-400 shadow-sm shadow-black/20 py-2.5 px-4 desktop:py-3 desktop:px-5 
+            text-base rounded-sm desktop:rounded-md desktop:shadow-none desktop:border desktop:border-gray-300'/>
+
+            <button type="submit" className='bg-main-blue-hover mt-2 py-2 text-[17px] desktop:text-xl text-white font-bold rounded 
+            desktop:rounded-md desktop:py-3 desktop:bg-main-blue transition-all 
+            hover:bg-main-blue-hover desktop:mt-0'>
                 Entrar
             </button>
             <a href="" className='self-center font-medium text-blue-600 text-sm hover:underline'>
                 Esqueceu a senha?
             </a>
+
+            <div className='flex items-center justify-between gap-4 desktop:hidden pt-4'>
+                <div className='h-px bg-gray-300 w-full' />
+                <span className='text-sm text-gray-500'>
+                    ou
+                </span>
+                <div className='h-px bg-gray-300 w-full' />
+            </div>
         </form>
-        <div className='pt-6 pb-2 grid place-items-center'>
-            <button className='py-3 px-5 rounded-md text-white font-black bg-main-green hover:bg-main-green-hover'>
+        <div className=' desktop:pt-6 pb-2 grid place-items-center'>
+            <button className='border border-gray-300 px-16 py-1.5 rounded desktop:rounded-md desktop:py-3 desktop:border-none desktop:px-5 desktop:text-white desktop:font-bold desktop:bg-main-green hover:bg-main-green-hover'>
                 Criar nova conta
             </button>
         </div>   

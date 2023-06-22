@@ -14,7 +14,7 @@ export const Footer = () => {
   return (
     <section className='w-full max-w-[980px] mx-auto pt-8'>
         <ul className='flex flex-wrap gap-x-3 gap-y-1 md:gap-x-2 items-center pb-2.5 border-b-[1px] border-b-gray-300'>
-          <li className='text-[12.25px] text-gray-500 md:text-gray-400 md:font-bold'>
+          <li className='text-[12px] text-gray-400'>
             Português (Brasil)
           </li>
           {lang.map(content => <Content  text={content}/>)}
@@ -27,7 +27,7 @@ export const Footer = () => {
           {contentFooter.map(content => <Content  text={content}/>)}
         </ul>
         <div className='py-3'>
-          <span className='text-[12.25px] text-gray-500 md:text-gray-400 md:font-bold'>Meta © 2023</span>
+          <span className='text-[12px] text-gray-500'>Meta © 2023</span>
         </div>
         </div>
     </section>
