@@ -1,14 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
 import { Login } from './Login'
+import { Register } from './Register'
 
 export const Main = () => {
   return (
     <section className='flex flex-col items-center justify-between flex-wrap desktop:gap-10 w-full mx-10 my-0 pb-5 desktop:pt-2 lg:flex-row lg:max-w-[980px] lg:mx-auto'>
+        <Register />
         <div className=' desktop:max-w-sm md:max-w-lg md:w-500px lg:h-500px lg:pt-24'>
             <div className='-mb-2 flex justify-center lg:-ml-8 lg:block'>
                 <Image src='/facebook.svg' alt='Facebook' height={106} width={301} 
-                className='h-10 desktop:h-auto w-auto'/>
+                className='h-10 desktop:h-[inherit]'/>
             </div>
             <div className='hidden desktop:block desktop:text-center lg:text-left'>
               <p className='text-2xl lg:text-subtitle leading-6 md:leading-8 font-regular'>
