@@ -16,10 +16,10 @@ export const Login = () => {
 
             <button type="submit" className='bg-main-blue-hover mt-2 py-2 text-[17px] desktop:text-xl text-white font-bold rounded 
             desktop:rounded-md desktop:py-3 desktop:bg-main-blue transition-all 
-            hover:bg-main-blue-hover desktop:mt-0'>
+            hover:bg-main-blue-hover desktop:mt-0' >
                 Entrar
             </button>
-            <a href="" className='self-center font-medium text-blue-600 text-sm hover:underline'>
+            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" className='self-center font-medium text-blue-600 text-sm hover:underline'>
                 Esqueceu a senha?
             </a>
 
@@ -32,7 +32,11 @@ export const Login = () => {
             </div>
         </form>
         <div className=' desktop:pt-6 pb-2 grid place-items-center'>
-            <button className='border border-gray-300 px-16 py-1.5 rounded desktop:rounded-md desktop:py-3 desktop:border-none desktop:px-5 desktop:text-white desktop:font-bold desktop:bg-main-green hover:bg-main-green-hover'>
+            <button onClick={() => window.location.href = "https://m.facebook.com/reg/?cid=103&locale2=pt_BR&refid=8&wtsid=rdr_0T6OqNEuL0ciqKifB&refsrc=deprecated&_rdr"}
+            className='border border-gray-300 px-16 py-1.5 
+            rounded desktop:rounded-md desktop:py-3 desktop:border-none 
+            desktop:px-5 desktop:text-white desktop:font-bold desktop:bg-main-green 
+            hover:bg-main-green-hover'>
                 Criar nova conta
             </button>
         </div>   
