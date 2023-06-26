@@ -9,12 +9,12 @@ export const Login = ({setModal}: LoginProps) => {
     <div className='bg-white desktop:rounded-md overflow-hidden desktop:shadow-lg desktop:shadow-black/20 p-3.5'>
         <form className='flex flex-col pb-4 gap-2 desktop:gap-3.5 desktop:border-gray-300 desktop:border-solid desktop:border-b-[1px]'>
             <input type="text" placeholder='E-mail ou telefone'
-            className='bg-[#f5f6f7] placeholder:text-gray-500 
+            className='bg-[#f5f6f7] placeholder:text-gray-500 desktop:focus:placeholder:text-gray-300 desktop:focus:bg-white desktop:focus:border-blue-600 desktop:outline-none
             desktop:placeholder:text-text-gray-400 shadow-sm shadow-black/20 py-2.5 px-4 desktop:py-3 desktop:px-5 
             text-base rounded-sm desktop:rounded-md desktop:shadow-none desktop:border desktop:border-gray-300'/>
 
             <input type="password" placeholder='Senha'
-            className='bg-[#f5f6f7] placeholder:text-gray-500 
+            className='bg-[#f5f6f7] placeholder:text-gray-500 desktop:focus:placeholder:text-gray-300 desktop:focus:bg-white desktop:focus:border-blue-600 desktop:outline-none
             desktop:placeholder:text-text-gray-400 shadow-sm shadow-black/20 py-2.5 px-4 desktop:py-3 desktop:px-5 
             text-base rounded-sm desktop:rounded-md desktop:shadow-none desktop:border desktop:border-gray-300'/>
 
