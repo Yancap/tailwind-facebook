@@ -108,9 +108,9 @@ export const Register = ({setModal}: RegisterProps) => {
                         <div className='flex flex-col gap-2 mt-3'>
                             <select name="" id="" className='basis-full border border-gray-300 rounded p-2'>
                                 <option selected={true} value="" disabled={true}>Selecione seu pronome</option>
-                                <option value="1">Feminino: "Deseje a ela um feliz aniversário!"</option>
-                                <option value="2">Masculino: "Deseje a ele um feliz aniversário!"</option>
-                                <option value="3">Neutro: "Deseje a ele(a) um feliz aniversário!"</option>
+                                <option value="1">{'Feminino: "Deseje a ela um feliz aniversário!"'}</option>
+                                <option value="2">{'Masculino: "Deseje a ele um feliz aniversário!"'}</option>
+                                <option value="3">{'Neutro: "Deseje a ele(a) um feliz aniversário!"'}</option>
                             </select>
                             <span className='text-xs text-gray-400'>
                                 Seu pronome fica visivel para todos.
